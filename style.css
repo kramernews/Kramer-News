@@ -1,5 +1,7 @@
 body {
   font-family:bookman old style;
-  max-width:80em;
+  max-width:50em;
+  margin-right:auto;
+  margin-left:auto;
   border-left:1px solid silver;
 }
