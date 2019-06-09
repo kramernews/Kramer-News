@@ -1,4 +1,7 @@
 body {
+  background:#48f;
+}
+div.content {
   font-family:bookman old style;
   max-width:50em;
   margin-right:auto;
@@ -6,4 +9,5 @@ body {
   padding:2em;
   border-left:1px solid silver;
   border-right:1px solid silver;
+  background:white;
 }
