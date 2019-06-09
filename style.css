@@ -3,5 +3,7 @@ body {
   max-width:50em;
   margin-right:auto;
   margin-left:auto;
+  padding:2em;
   border-left:1px solid silver;
+  border-right:1px solid silver;
 }
