@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+  <title>About</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+        h1 {color: gray;}
+    p1 {color: green;}
+  </style>
+</head>
+
+<body>
+
+<div class="content">
+
+<a href="./">&larr; Back to the Main Page</a>
+
+<h1>Frequently Asked Questions</h1>
+
+<p1>Q. How may I donate my estate to "Kramer News?"</p1>
+<p>A. This is a physically impossible anomaly, only ever successfully conducted in sterile laboratories, 20,000 leagues underneath the ground of AREA 51, in case you didn't know.</p>
+<p1>Q. How often does the "Kramer News," come out.  I guess what I'm trying to say is, does it come out daily, weekly, monthly, annually, bi-annually, tri-annually, uh... quad-annually? </p1>
+<p>A. Well, since you seem to like words ending in the suffix of "-ly," I'll have you know that the "Kramer News" comes out sporadically!</p>  
+  
+</div>
+
+</body>
+
+</html>
