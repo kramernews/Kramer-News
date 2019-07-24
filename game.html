@@ -20,7 +20,7 @@
 
   body {
 
-    background: light blue;
+    background: blue;
 
     display: flex;
 
@@ -32,7 +32,7 @@
 
   canvas {
 
-    border: 1px solid black;
+    border: 10px solid black;
 
   }
 
@@ -82,7 +82,7 @@ var snake = {
 
   // length of the snake. grows when eating an apple
 
-  maxCells: 100
+  maxCells: 4
 
 };
 
@@ -190,7 +190,7 @@ function loop() {
 
   // draw apple
 
-  context.fillStyle = 'red';
+  context.fillStyle = 'green';
 
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
 
@@ -198,7 +198,7 @@ function loop() {
 
   // draw snake one cell at a time
 
-  context.fillStyle = 'green';
+  context.fillStyle = 'blue';
 
   snake.cells.forEach(function(cell, index) {
 
@@ -244,7 +244,7 @@ function loop() {
 
         snake.cells = [];
 
-        snake.maxCells = 100;
+        snake.maxCells = 4;
 
         snake.dx = grid;
 
