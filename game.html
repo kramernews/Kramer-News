@@ -42,7 +42,7 @@
 
 <body>
 
-<canvas width="400" height="400" id="game"></canvas>
+<canvas width="500" height="500" id="game"></canvas>
 
 <script>
 
@@ -52,7 +52,7 @@ var context = canvas.getContext('2d');
 
 
 
-var grid = 16;
+var grid = 100;
 
 var count = 0;
 
@@ -82,7 +82,7 @@ var snake = {
 
   // length of the snake. grows when eating an apple
 
-  maxCells: 4
+  maxCells: 1
 
 };
 
@@ -118,7 +118,7 @@ function loop() {
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
 
-  if (++count < 4) {
+  if (++count < 1) {
 
     return;
 
@@ -244,7 +244,7 @@ function loop() {
 
         snake.cells = [];
 
-        snake.maxCells = 4;
+        snake.maxCells = 1;
 
         snake.dx = grid;
 
